@@ -17,8 +17,7 @@ Pytorch original implementation of TransCoder in [Unsupervised Translation of Pr
  
 If your `libclang.so` is not in `/usr/lib/llvm-7/lib/`, replace the path to `libclang.so` to the correct path in `clang.cindex.Config.set_library_path('path_to_libclang')` in `code_tokenizer.py` 
 
-If you run the data preprocessing pipeline, you will have to compile fastBPE. Go in preprocessing/tools/fastBPE and run:
-``` g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast ```
+If you run the data preprocessing pipeline, you will have to compile fastBPE. Go in XLM/tools/fastBPE and carry out the steps described in the [ReadMe](https://github.com/facebookresearch/TransCoder/blob/master/XLM/tools/README.md).
 
 ## Translate
 Transcompilation between Java, C++ and Python 3.
