@@ -96,7 +96,7 @@ NB : In our case, the training data is too large to fit on a single machine. Thu
 
 To get the monolingual data, first download cpp / java / python source code from Google BigQuery (https://cloud.google.com/blog/products/gcp/github-on-bigquery-analyze-all-the-open-source-code). To run our preprocessing pipeline, you need to donwlaod the raw source code on your machine in json format, and put each programming language in a dedicated folder. A sample of it is given in data/test_dataset. The pipeline extracts source code from json, tokenizes it, extracts functions, applies bpe, binarizes the data and creates symlink with appropriate name to be used directly in XLM. The folder that ends with .XLM-syml is the data path you give for XLM traning. You will have to add the test and valid parallel we provide in "Run an evaluation" data to that folder. 
 
-To test the pipeline run ```pytest preprocessing/test_dataset.py```, you will see the pipeline output in data/test_dataset folder.
+To test the pipeline run ```pytest preprocessing/test_preprocess.py```, you will see the pipeline output in data/test_dataset folder.
 
 To run the pipeline (either locally or on remote machine ), command example:
 
