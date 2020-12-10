@@ -1,0 +1,9 @@
+NumPy
+torch
+fastBPE
+Moses
+Apex
+libclang
+submitit
+six
+sacrebleu==1.2.11
