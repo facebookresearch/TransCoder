@@ -298,9 +298,9 @@ WHERE
 Google link for more info here
 
 ## References
-This Code was used to train and evaluate the TransCoder model in:
+This Code was used to train and evaluate the TransCoder model. Our paper was published at NeurIPS 2020:
 
-[1] M.A. Lachaux*, B. Roziere*, L. Chanussot, G. Lample [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf).
+[1] B. Roziere*, M.A. Lachaux*, L. Chanussot, G. Lample [Unsupervised Translation of Programming Languages](https://research.fb.com/wp-content/uploads/2020/11/Unsupervised-Translation-of-Programming-Languages.pdf).
 
 \* Equal Contribution
 
