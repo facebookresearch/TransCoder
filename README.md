@@ -305,10 +305,11 @@ This Code was used to train and evaluate the TransCoder model in:
 \* Equal Contribution
 
 ```
-@article{lachaux2020unsupervised,
-  title={Unsupervised Translation of Programming Languages},
-  author={Lachaux, Marie-Anne and Roziere, Baptiste and Chanussot, Lowik and Lample, Guillaume},
-  journal={arXiv preprint arXiv:2006.03511},
+@article{roziere2020unsupervised,
+  title={Unsupervised translation of programming languages},
+  author={Roziere, Baptiste and Lachaux, Marie-Anne and Chanussot, Lowik and Lample, Guillaume},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
   year={2020}
 }
 ```
