@@ -1,3 +1,5 @@
+This repository is deprecated, please now refer to : https://github.com/facebookresearch/CodeGen
+
 # TransCoder
 
 Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
